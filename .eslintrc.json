@@ -1,0 +1,28 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "overrides": [
+    {
+      "files": ["*-test.js", "*.spec.js"],
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    },
+    {
+      "files": ["*.js", "*-test.js", "*.spec.js"],
+
+      /**
+        0 - Turn the rule off
+        1 - Turn the rule on as a warning
+        2 - Turn the rule on as an error
+      */
+      "rules": {
+        //"no-shadow": 0,
+        "no-console": 0,
+        //"no-plusplus": 0,
+        //"no-unused-expressions": 0,
+        "no-param-reassign": 0,
+        "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
+      }
+    }
+  ]
+}
