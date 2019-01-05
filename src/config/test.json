@@ -1,0 +1,4 @@
+{
+  "db": "mongodb://localhost/oauth2-test",
+  "rootURL": "http://localhost:3001"
+}
