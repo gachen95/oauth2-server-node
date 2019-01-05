@@ -72,6 +72,12 @@ $ yarn install
 $ node seed.js
 ```
 
+## run 
+
+```sh
+$ npm start
+```
+
 ## configure mongo db url and server url
 All the configure files are in folder config.   
 By default, it uses development.json. If you want to change it, just set **NODE_ENV**.
